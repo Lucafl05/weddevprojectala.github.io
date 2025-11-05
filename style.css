@@ -1,0 +1,158 @@
+.topnav {
+    background-color: #4A6D7C;
+    text-align: center; 
+}
+
+.topnav a {
+    float: left; 
+    display: block;
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.topnav a:hover {
+    background-color: #A7D8F2; 
+}
+
+.topnav a.active {
+    background-color: #6E7C7C;
+    color: white; 
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F7FA;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #2C3E50;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.reviews {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.reviews > div {
+    background-color: #FFFFFF; 
+    border: 1px solid #A7D8F2; 
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.team {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.team > div {
+    background-color: #FFFFFF; 
+    border: 1px solid #A7D8F2; 
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.teamIMG {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.HowWeWork {
+    border: none;
+    padding: 30px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #4A6D7C; 
+    border-radius: 10px;
+}
+
+.aboutMe p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #D1E4E6;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+figure {
+    text-align: center;
+    margin-top: 20px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #7D8C8C;
+}
+
+.tripnav a {
+    color: #4A6D7C;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.tripnav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #6E7C7C; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer a {
+    color: #A7D8F2; 
+    text-decoration: none;
+}
