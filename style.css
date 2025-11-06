@@ -8,13 +8,14 @@
     display: block;
     color: white; 
     text-align: center; 
-    padding: 14px 20px; 
+    padding: 1.375vh 1.375vw; 
     text-decoration: none;
-    font-size: 17px; 
+    font-size: 1rem; 
 }
 
 .topnav a:hover {
     background-color: #A7D8F2; 
+    color: black;
 }
 
 .topnav a.active {
@@ -26,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    height: 7vh;
 }
 
 body {
@@ -42,49 +43,67 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5625rem;
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 h5 {
-    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+li {
+    list-style: inside;
+}
+
+.HowWeWork {
+    border: none;
+    padding: 1vh 1vw;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #4A6D7C; 
+    border-radius: 10px;
 }
 
 .reviews {
     display: grid;
-    column-gap: 50px;
+    column-gap: 3.2vw;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: 1.5vh 1.5vw;
 }
 
 .reviews > div {
     background-color: #FFFFFF; 
     border: 1px solid #A7D8F2; 
-    padding: 20px;
-    font-size: 18px;
+    padding: 1.75vh 1.75vw;
+    font-size: 1.3rem;
     text-align: center;
     border-radius: 8px;
 }
 
 .team {
     display: grid;
-    column-gap: 50px;
+    column-gap: 3.2vw;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: 1.5vh 1.5vw;
 }
 
 .team > div {
     background-color: #FFFFFF; 
     border: 1px solid #A7D8F2; 
-    padding: 20px;
-    font-size: 20px;
+    padding: 1.75vh 1.75vw;
+    font-size: 1.3rem;
     text-align: center;
     border-radius: 8px;
 }
@@ -95,61 +114,92 @@ h5 {
     height: auto;
 }
 
-.HowWeWork {
-    border: none;
-    padding: 30px;
-    font-size: 22px;
-    text-align: center;
-    background-color: #FFFFFF;
-    color: #4A6D7C; 
-    border-radius: 10px;
-}
-
 .aboutMe p {
-    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 1.6;
 }
 
-textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
+.skiing {
+    width: 82.5vw;
+    padding: 1vh 1vw;
+    margin-bottom: 1vh;
     border: 1px solid #D1E4E6;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 1.2rem;
     resize: vertical;
+}
+
+.frenchAlps {
+    width: 17.5vw;
+    height: 17.5vh;
+    transition-duration: 4s;
+    transition-delay: 0.3s;
+}
+
+.frenchAlps:hover {
+    width: 25vw;
+    height: 25vh;
+}
+
+.snowboarding {
+    width: 82.5vw;
+    padding: 1vh 1vw;
+    margin-bottom: 1vh;
+    border: 1px solid #D1E4E6;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    resize: vertical;
+}
+
+.dolomites {
+    width: 17.5vw;
+    height: 17.5vh;
+    transition-duration: 4s;
+    transition-delay: 0.3s;
+}
+
+.dolomites:hover {
+    width: 25vw;
+    height: 25vh;
 }
 
 figure {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.8vh;
 }
 
 figcaption {
-    font-size: 14px;
+    font-size: 0.8rem;
     color: #7D8C8C;
 }
 
 .tripnav a {
     color: #4A6D7C;
-    font-size: 18px;
+    font-size: 1.1rem;
     text-decoration: none;
-    margin: 10px 0;
+    margin: 1vh 0;
 }
 
 .tripnav a:hover {
     text-decoration: underline;
+    color: red;
+}
+
+.gif {
+    align-self: center;
+    width: 17.5vw;
+    height: 50%;
 }
 
 footer {
     background-color: #6E7C7C; 
     color: white;
-    padding: 20px;
+    padding: 1vh 1vw;
     text-align: center;
 }
 
 footer p {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 footer a {
