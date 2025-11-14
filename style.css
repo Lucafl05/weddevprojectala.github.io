@@ -91,7 +91,7 @@ li {
 
 .team {
     display: grid;
-    column-gap: 3.2vw;
+    column-gap: 2.9vw;
     grid-template-columns: auto auto auto;
     padding: 1.5vh 1.5vw;
 }
