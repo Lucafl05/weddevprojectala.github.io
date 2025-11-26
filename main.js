@@ -1,5 +1,4 @@
 function validateForm() {
-    // retrieving form values
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
@@ -9,7 +8,6 @@ function validateForm() {
     let emailText;
     let messageText;
 
-    // avoiding blank input
     if (name == "") {
         nameText = "Name input is required"; 
         document.getElementById("namePara").innerHTML = nameText;
@@ -22,13 +20,19 @@ function validateForm() {
         return false;
     }
 
+    let phoneRegex = /^(?:\+353\s?\d{9}|0\d{9})$/;
+    if (!phoneRegex.test(phone)) {
+        phoneText = "Please enter a valid phone number (No Spaces)";
+        document.getElementById("phonePara").innerHTML = phoneText;
+        return false;
+    }
+
     if (email == "") {
         emailText = "Email is required"; 
         document.getElementById("emailPara").innerHTML = emailText;
         return false;
     }
     
-    // validating email format using a simple regular expression
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
         emailText = "Please enter a valid email"; 
@@ -42,5 +46,13 @@ function validateForm() {
         return false;
     }
 
+    document.getElementById("success").innerHTML = "Successful submission";
 
+    document.getElementById("name").value = "";
+    document.getElementById("phone").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+
+
+    return false;
 }
